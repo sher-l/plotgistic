@@ -2,8 +2,6 @@
 
 Scripts to create nice gistic visualisations.
 
-Please excuse the bad coding, and light documentation!
-
 ## Prerequisites
 
 - Developed using perl v5.26.1 built for x86_64-linux-gnu-thread-multi
