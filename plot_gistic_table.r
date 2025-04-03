@@ -53,8 +53,8 @@ abline(v=c(0,chr$Position_offset))
 abline(h=2, col="darkgrey", lty=2)
 abline(h=1, col="darkgrey", lty=2)
 
-abline(v=gene_amp$Position_offset, lty=2, col=rgb(191/255,95/255,0))
-text(gene_amp$Position_offset-10000000,max(amp$X.log10.q.value.),labels=gene_amp$average_amplitude, adj=1, srt=90, cex=0.6)
+# abline(v=gene_amp$Position_offset, lty=2, col=rgb(191/255,95/255,0))
+# text(gene_amp$Position_offset-10000000,max(amp$X.log10.q.value.),labels=gene_amp$average_amplitude, adj=1, srt=90, cex=0.6)
 
 if (nchar(custom_bed)>1){
   abline(v=custom_genes[,2], , lty=2, col="grey")
@@ -91,8 +91,8 @@ abline(v=c(0,chr$Position_offset))
 abline(h=-2, col="darkgrey", lty=2)
 abline(h=-1, col="darkgrey", lty=2)
 
-abline(v=gene_del$Position_offset, lty=2, col=rgb(0,102/255,204/255))
-text(gene_del$Position_offset-10000000,-max(del$X.log10.q.value.),labels=gene_del$average_amplitude, adj=0, srt=90, cex=0.6)
+# abline(v=gene_del$Position_offset, lty=2, col=rgb(0,102/255,204/255))
+# text(gene_del$Position_offset-10000000,-max(del$X.log10.q.value.),labels=gene_del$average_amplitude, adj=0, srt=90, cex=0.6)
 
 if (nchar(custom_bed)>1){
   abline(v=custom_genes[,2], , lty=2, col="grey")
