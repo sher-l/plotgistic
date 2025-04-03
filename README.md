@@ -30,6 +30,7 @@ Create the plot:
 R -f plot_gistic_table.r --args myProject_gistic_table.tsv
 display myProject_gistic_table.tsv.pdf
 ```
+![image](https://github.com/user-attachments/assets/e5a05d6b-d971-4e8d-a90a-610dbf7e233b)
 
 ### Plot with custom genes
 
